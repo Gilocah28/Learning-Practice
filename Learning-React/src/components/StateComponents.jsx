@@ -33,7 +33,6 @@ const StateComponents = () => {
       <h1>Count: {count}</h1>
       <button onClick={() => setCount(prevState => prevState + 1)}>Increment</button>
       <button onClick={() => setCount(prevState => prevState - 1)}>Decrement</button>
-
       <hr />
 
 
