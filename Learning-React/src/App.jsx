@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import StateComponents from './components/StateComponents'
 import PropsComponent from './components/Props/PropsComponent'
+import LikedComponent from './components/Challenges/LikedComponent'
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
       {/* <StateComponents/> */}
-      <PropsComponent />
+      {/* <PropsComponent /> */}
+      <LikedComponent/>
     </>
   )
 }
