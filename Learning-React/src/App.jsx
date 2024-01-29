@@ -13,7 +13,7 @@ function App() {
     <>
       {/* <StateComponents/> */}
       {/* <PropsComponent /> */}
-      <LikedComponent/>
+      <LikedComponent onClick={() => console.log('Liked Success')}/>
     </>
   )
 }
