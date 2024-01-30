@@ -5,6 +5,7 @@ import StateComponents from './components/StateComponents'
 import PropsComponent from './components/Props/PropsComponent'
 import LikedComponent from './components/Challenges/LikedComponent'
 import ExpandableTextComponent from './components/Challenges/ExpandableText/ExpandableTextComponent'
+import UseRefComponent from './components/reactHooks/UseRefComponent'
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
         laudantium debitis in et aperiam,
         fuga quaerat architecto. Quasi dolorem at aperiam?
       </ExpandableTextComponent> */}
+
+
+      <UseRefComponent/>
     </>
   )
 }
