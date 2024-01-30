@@ -9,6 +9,7 @@ import UseRefComponent from './components/reactHooks/UseRefComponent'
 import UseEffectComponent from './components/reactHooks/UseEffectComponent'
 import ParentContext from './components/reactHooks/useContext/ParentContext'
 import UseReduceComponent from './components/reactHooks/UseReduceComponent'
+import FormComponent from './components/FormHandling/FormComponent'
 
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
       {/* <ParentContext/> */}
 
       {/* <UseReduceComponent/> */}
+
+      <FormComponent/>
     </>
   )
 }
