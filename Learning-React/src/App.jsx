@@ -6,6 +6,7 @@ import PropsComponent from './components/Props/PropsComponent'
 import LikedComponent from './components/Challenges/LikedComponent'
 import ExpandableTextComponent from './components/Challenges/ExpandableText/ExpandableTextComponent'
 import UseRefComponent from './components/reactHooks/UseRefComponent'
+import UseEffectComponent from './components/reactHooks/UseEffectComponent'
 
 
 function App() {
@@ -27,7 +28,9 @@ function App() {
       </ExpandableTextComponent> */}
 
 
-      <UseRefComponent/>
+      {/* <UseRefComponent/> */}
+
+      <UseEffectComponent />
     </>
   )
 }
