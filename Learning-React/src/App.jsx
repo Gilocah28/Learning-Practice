@@ -8,10 +8,11 @@ import ExpandableTextComponent from './components/Challenges/ExpandableText/Expa
 import UseRefComponent from './components/reactHooks/UseRefComponent'
 import UseEffectComponent from './components/reactHooks/UseEffectComponent'
 import ParentContext from './components/reactHooks/useContext/ParentContext'
+import UseReduceComponent from './components/reactHooks/UseReduceComponent'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
@@ -33,7 +34,9 @@ function App() {
 
       {/* <UseEffectComponent /> */}
 
-      <ParentContext/>
+      {/* <ParentContext/> */}
+
+      {/* <UseReduceComponent/> */}
     </>
   )
 }
