@@ -17,13 +17,13 @@ function App() {
       {/* <LikedComponent onClick={() => console.log('Liked Success')}/>
        */}
 
-      <ExpandableTextComponent maxChar={20}>
+      {/* <ExpandableTextComponent maxChar={20}>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Exercitationem reiciendis quidem eius,
         aut ipsum repellendus itaque? Odio dolor
         laudantium debitis in et aperiam,
         fuga quaerat architecto. Quasi dolorem at aperiam?
-      </ExpandableTextComponent>
+      </ExpandableTextComponent> */}
     </>
   )
 }
