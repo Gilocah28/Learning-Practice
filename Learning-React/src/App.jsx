@@ -7,6 +7,7 @@ import LikedComponent from './components/Challenges/LikedComponent'
 import ExpandableTextComponent from './components/Challenges/ExpandableText/ExpandableTextComponent'
 import UseRefComponent from './components/reactHooks/UseRefComponent'
 import UseEffectComponent from './components/reactHooks/UseEffectComponent'
+import ParentContext from './components/reactHooks/useContext/ParentContext'
 
 
 function App() {
@@ -30,7 +31,9 @@ function App() {
 
       {/* <UseRefComponent/> */}
 
-      <UseEffectComponent />
+      {/* <UseEffectComponent /> */}
+
+      <ParentContext/>
     </>
   )
 }
